@@ -1,0 +1,33 @@
+body {/* this is working out nicely. Find a way to group #section-one/.one and #section-four/.a */
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.links {
+    display: flex;
+}
+
+#section-one,
+#section-two,
+#section-three,
+#section-four {
+    display: flex;
+}
+
+#section-two {
+    flex-direction: column;
+}
+
+.one,
+.two {
+    display: flex;
+}
+
+.a,
+.b,
+.c,
+.d {
+    display: flex;
+    flex-direction: column;
+}
