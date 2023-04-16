@@ -1,0 +1,81 @@
+/* This is an attempt to organize the stylesheet in a different way */
+
+/* SHARED PROPERTIES */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header,
+.links,
+.footer {
+    display: flex;
+    height: 10vh;
+}
+
+#section-one,
+#section-two,
+#section-three,
+#section-four {
+    display: flex;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.one,
+.two {
+    display: flex;
+}
+
+.one {
+    flex-direction: column;
+}
+
+.a,
+.b,
+.c {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-one,
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+/* SPECIFIC PROPERTIES */
+/* HEADER */
+.logo {
+    font-size: 24px;
+}
+/* SECTION ONE */
+
+/* SECTION TWO */
+#section-two {
+    flex-direction: column;
+}
+
+.a {
+    /*justify-content: center;*/ /* I don't think this part is necessary */
+    align-items: center;
+    margin: 0 32px;
+    
+}
+
+.a img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+#section-two .two {
+    margin: 0 100px;
+}
+/* SECTION THREE */
+#section-three {
+    background-color: #e5e7eb;
+}
+/* SECTION FOUR */
+
+/* FOOTER */
