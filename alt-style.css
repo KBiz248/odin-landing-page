@@ -47,11 +47,45 @@ body {
 
 /* SPECIFIC PROPERTIES */
 /* HEADER */
+.header {
+    padding: 0 100px;
+}
 .logo {
+    margin-right: auto;
     font-size: 24px;
+    color: #f9faf8 
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 16px;
 }
 /* SECTION ONE */
+#section-one {
+    padding: 0 100px;
+}
 
+#section-one .one {
+    justify-content: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
+}
+
+.hero-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#section-one button {
+    /* check to see if any of this can be placed in the shared properties section */
+    background-color: #3882f6;
+    color: #f9faf8;
+}
 /* SECTION TWO */
 #section-two {
     flex-direction: column;
