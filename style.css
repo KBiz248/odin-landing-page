@@ -1,11 +1,15 @@
 body {/* this is working out nicely. Find a way to group #section-one/.one and #section-four/.a */
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .header,
-.links {
+.links,
+.footer {
     display: flex;
+    height: 10vh;
+
 }
 
 #section-one,
@@ -13,6 +17,7 @@ body {/* this is working out nicely. Find a way to group #section-one/.one and #
 #section-three,
 #section-four {
     display: flex;
+    height: 20vh;
 }
 
 #section-two {
@@ -24,10 +29,24 @@ body {/* this is working out nicely. Find a way to group #section-one/.one and #
     display: flex;
 }
 
+.one {
+    flex-direction: column;
+}
+
 .a,
 .b,
-.c,
-.d {
+.c {
     display: flex;
     flex-direction: column;
+}
+
+.a {
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+
+.a img {
+    width: 100px;
 }
