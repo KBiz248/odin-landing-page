@@ -41,7 +41,7 @@ body {/* this is working out nicely. Find a way to group #section-one/.one and #
 }
 
 .a {
-    justify-content: center;
+    /*justify-content: center;*/ /* I don't think this part is necessary */
     align-items: center;
     margin: 0 32px;
     
@@ -53,4 +53,14 @@ body {/* this is working out nicely. Find a way to group #section-one/.one and #
 
 #section-two .two {
     margin: 0 100px;
+}
+
+#section-one,
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+#section-three {
+    background-color: #e5e7eb;
 }
