@@ -43,10 +43,14 @@ body {/* this is working out nicely. Find a way to group #section-one/.one and #
 .a {
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    margin: 0 32px;
     
 }
 
 .a img {
     width: 100px;
+}
+
+#section-two .two {
+    margin: 0 100px;
 }
