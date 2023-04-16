@@ -17,7 +17,8 @@ body {/* this is working out nicely. Find a way to group #section-one/.one and #
 #section-three,
 #section-four {
     display: flex;
-    height: 20vh;
+    height: 500px;
+    flex-shrink: 0;
 }
 
 #section-two {
@@ -61,6 +62,13 @@ body {/* this is working out nicely. Find a way to group #section-one/.one and #
     background-color: #1f2937;
 }
 
+/* SECTION ONE */
+
+/* SECTION TWO */
+
+/* SECTION THREE */
 #section-three {
     background-color: #e5e7eb;
 }
+
+/*SECTION FOUR */
