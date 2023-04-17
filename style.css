@@ -6,6 +6,11 @@ body {
     flex-direction: column;
 }
 
+.header,
+.section-one {
+    padding: 0 200px 150px;
+}
+
 .flex {
     display: flex;
 }
