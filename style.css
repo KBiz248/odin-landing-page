@@ -22,6 +22,15 @@ body {
 .section-four {
     height: 300px;
 }
+
+button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 24px;
+    color:#f9faf8;
+    font-weight: bold;
+}
 /*SECTION SPECIFIC PARAMETERS */
 
 /* HEADER */
