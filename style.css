@@ -61,6 +61,7 @@ button {
 /* the hero section */
 .section-one {
     background-color: #1f2937;
+    gap: 64px;
 }
 
 .section-one .text {
@@ -72,6 +73,11 @@ button {
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.section-one button {
+    align-self: flex-start;
+    margin-top: 12px;
 }
 
 /* SECTION TWO */
