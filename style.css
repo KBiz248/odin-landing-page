@@ -46,6 +46,8 @@ button {
 }
 
 .links {
+    margin-left: auto;
+    gap: 16px;
     font-size: 18px;
     color: #e5e7eb
 }
