@@ -80,6 +80,14 @@ button {
     margin-top: 12px;
 }
 
+.section-one img {
+    align-self: center;
+    background-color: #3882f6;
+    flex-shrink: 0;
+    height: 200px;
+    width: 450px;
+}
+
 /* SECTION TWO */
 /* the image section */
 .section-two img {
