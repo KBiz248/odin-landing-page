@@ -135,6 +135,7 @@ button {
 
 .author {
     font-weight: bold;
+    align-self: flex-end;
 }
 
 /* SECTION FOUR */
