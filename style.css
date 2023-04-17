@@ -95,6 +95,14 @@ button {
 
 /* SECTION FOUR */
 /* the call to action section */
+.box {
+    background-color: #3882f6;
+    padding: 50px;
+    gap: 60px;
+    width: 600px;
+    border-radius: 16px;
+}
+
 .bigtext {
     font-size: 18px;
     font-weight: bold;
