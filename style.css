@@ -16,6 +16,12 @@ body {
     justify-content: center;
 }
 
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+    height: 300px;
+}
 /*SECTION SPECIFIC PARAMETERS */
 
 /* HEADER */
