@@ -25,9 +25,15 @@ body {
 /*SECTION SPECIFIC PARAMETERS */
 
 /* HEADER */
+.header {
+    background-color: #1f2937;
+}
 
 /* SECTION ONE */
 /* the hero section */
+.section-one {
+    background-color: #1f2937;
+}
 
 /* SECTION TWO */
 /* the image section */
@@ -39,8 +45,14 @@ body {
 
 /* SECTION THREE */
 /* the quote section */
+.section-three {
+    background-color: #e5e7eb;
+}
 
 /* SECTION FOUR */
 /* the call to action section */
 
 /* FOOTER */
+.footer {
+    background-color: #1f2937;
+}
