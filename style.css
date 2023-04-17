@@ -82,6 +82,15 @@ body {
 
 /* SECTION FOUR */
 /* the call to action section */
+.bigtext {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.smalltext {
+    color: #e5e7eb;
+}
 
 /* FOOTER */
 .footer {
