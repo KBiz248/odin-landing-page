@@ -45,6 +45,17 @@ body {
     background-color: #1f2937;
 }
 
+.section-one .text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 1000;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 /* SECTION TWO */
 /* the image section */
 .section-two img {
