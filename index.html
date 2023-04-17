@@ -3,65 +3,61 @@
     <header>
         <meta charset="UTF-8">
         <title></title>
-        <link rel="stylesheet" href="alt-style.css">
+        <link rel="stylesheet" href="style.css">
     </header>
 
     <body>
-        <div class="header"><!--not sure if it's necessary, but here's a place for the header-->
+        <div class="header">
             <div class="logo">Header Logo</div>
             <div class="links">
                 <div>link 1</div>
                 <div>link 2</div>
                 <div>link 3</div><!--these need to be made into anchors-->
             </div>
-        </div><!--might just make this a part of the next div-->
+        </div>
 
-        <div id="section-one"><!--check #section-four and stylesheet to find a way to group these exceptions together-->
-          <div class="one">
-            <div class="hero-text">This website is awesome</div>
-            <div class="hero-subtext">This website has some text that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
-            <button type="button">Sign up</button>
+        <div class="section-one flex">
+          <div class="flex column">
+            <div class="text">This website is awesome</div>
+            <div class="subtext">This website has some text that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
+            <button>Sign up</button>
           </div>  
-            <div class="two">
-                <img>
-            </div>
+          <img>
         </div>
 
-        <div id="section-two">
-            <div class="one">
-                <div>Some random information</div> <!--maybe delete this div and leave text in parent div-->
-            </div>
-            <div class="two">
-                <div class="a">
+        <div class="section-two flex column">
+            <div class="flex center text">Some random information</div> 
+            <div class="flex center container">
+                <div class="flex column">
                     <img src="./images/leaves.jpg">
-                    <div>This is some subtexxt under an illustration or image</div>
+                    <div class="text">This is some subtexxt under an illustration or image</div>
                 </div>
-                <div class="a">
+                <div class="flex column">
                     <img src="./images/leaves.jpg">
-                    <div>This is some subtexxt under an illustration or image</div>
+                    <div class="text">This is some subtexxt under an illustration or image</div>
                 </div>
-                <div class="a">
+                <div class="flex column">
                     <img src="./images/leaves.jpg">
-                    <div>This is some subtexxt under an illustration or image</div>
+                    <div class="text">This is some subtexxt under an illustration or image</div>
                 </div>
-                <div class="a">
+                <div class="flex column">
                     <img src="./images/leaves.jpg">
-                    <div>This is some subtexxt under an illustration or image</div>
+                    <div class="text">This is some subtexxt under an illustration or image</div>
                 </div>
             </div>
         </div>
 
-        <div id="section-three">
-            <!--Not sure how to proceede. Will brainstorm some options-->
+        <div class="section-three flex column">
+            
         </div>
 
-        <div id="section-four"><!--check #section-one and stylesheet to find a way to group these exceptions together-->
-            <div class="one">
-                <div class="b">
-                    <div>Call to action! It's time!</div>
+        <div id="section-four">
+            <div class="box flex">
+                <div class="flex column">
+                    <div class="bigtext">Call to action! It's time!</div>
                     <div>Sign up for our product by clicking that button right over there</div>
                 </div>
-                <div class="c">button</div>
+                <div class="smalltext">button</div>
             </div>
         </div>
 
