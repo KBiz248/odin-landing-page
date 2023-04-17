@@ -90,6 +90,10 @@ button {
 
 /* SECTION TWO */
 /* the image section */
+.section-two {
+    padding-bottom: 150px;
+}
+
 .center.text {
     font-size: 36px;
     font-weight: 800;
@@ -101,6 +105,14 @@ button {
     height: 150px;
     align-self: center;
     border-radius: 16px;
+}
+
+.section-two .column {
+    flex: 0;
+}
+
+.container {
+    gap: 24px;
 }
 
 .container .text {
