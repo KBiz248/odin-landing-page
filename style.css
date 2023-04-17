@@ -70,6 +70,16 @@ body {
     background-color: #e5e7eb;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: bold;
+}
+
 /* SECTION FOUR */
 /* the call to action section */
 
