@@ -149,6 +149,13 @@ button {
     border-radius: 16px;
 }
 
+.box button {
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    /*justify-content: flex-end;*/
+    /*flex: 0 0 auto;*/
+}
+
 .bigtext {
     font-size: 18px;
     font-weight: bold;
