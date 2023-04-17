@@ -1,4 +1,20 @@
 /* GENERAL PARAMETERS */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+}
 
 /*SECTION SPECIFIC PARAMETERS */
 
