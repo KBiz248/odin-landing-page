@@ -25,6 +25,11 @@ body {
 
 /* SECTION TWO */
 /* the image section */
+.section-two img {
+    height: 150px;
+    align-self: center;
+    border-radius: 16px;
+}
 
 /* SECTION THREE */
 /* the quote section */
