@@ -125,6 +125,7 @@ button {
 /* the quote section */
 .section-three {
     background-color: #e5e7eb;
+    padding: 100px 200px;
 }
 
 .quote {
