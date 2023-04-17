@@ -142,6 +142,10 @@ button {
 
 /* SECTION FOUR */
 /* the call to action section */
+.section-four{
+    padding: 100px 250px;
+}
+
 .box {
     background-color: #3882f6;
     padding: 50px;
